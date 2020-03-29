@@ -2558,6 +2558,10 @@ input, select, textarea {
 					color: #953d75;
 				}
 
+	.intro {
+  margin-right: 350px;
+}
+
 /* Image */
 	img {
   		float: right;

@@ -32,7 +32,7 @@
 						<div class="inner">
 							<h1 class="major">DGA detection using XGBoost</h1>
 							<span class="image fit"><img src="images/malware.jpg"/></span>
-							<p>The aim of this project was to gain a better understanding of the Data Science discussions taking place on Twitter. I first scraped Twitter data relevant to the search term ‘Data Science’ for a period of a day. Performing basic EDA, I analyzed the traffic produced by this search term over a day. Cleaning the text data, I analyzed it further to reveal frequent terms used in discussing 'Data Science' and generated a wordcloud. Furthermore, I used NLP techniques to reveal top 10 words used in the discussions by count. Finally, I used the LDA model to extract the most naturally discussed topics about the field.</p>
+							<p>This project was part of my IMT 575 course titled 'Data Science III: Scaling, Application, and Ethics'. The aim of this project was to build an application which classifies a domain name as either Benign or DGA domain. First, we generated a master dataset of about 5 million rows. To keep the dataset balanced, we used equal benign and DGA domains. To generate DGA domains, we used 40 DGAs. We then generated multiple features like length of domains, count of capitals, count of digits, count of consecutive consonants, entropy of domain and so on. We then used XGBoost on these features to develop a classification model. We used hyperparameter tuning and got a testing accuracy of 93.16%. The application was built using AWS services like Lambda, API Gateway, and SageMaker.</p>
 							<p>The project files can be found <a href="https://github.com/shikhar96/DGA-or-Benign">here</a>.</p>
 						</div>
 					</section>

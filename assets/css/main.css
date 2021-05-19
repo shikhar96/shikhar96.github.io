@@ -85,6 +85,7 @@ input, select, textarea {
 
 		html, body {
 			min-width: 320px;
+			zoom: 80%;
 		}
 
 	}
